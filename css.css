@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: 20px 20px 20px black;
+    width: 70%;
+    min-width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form_crocery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.notification {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.notification_success {
+    /* width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px; */
+    background-color: rgb(102, 211, 98);
+}
+
+.notification_danger {
+    /* width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px; */
+    background-color: rgb(221, 136, 130);
+}
+
+.container h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid orange;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.inupt_request {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.inupt_request input {
+    border: none;
+    outline: none;
+    margin: 0;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.inupt_request button {
+    border: none;
+    outline: none;
+    margin: 0;
+    background-color: lightblue;
+}
+
+.list_request {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.reauest_list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.reauest_list .card_request {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.text_reaquest {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+.edite_remove {
+    padding: 5px;
+}
+
+.edite_remove button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.edite_remove button:hover {
+    background-color: lightblue;
+}
+
+.edite_remove button:active {
+    font-size: medium;
+}
+
+.crealbtn_action {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    outline: none;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: small;
+    padding: 5px;
+    color: rgb(182, 87, 87);
+    cursor: pointer;
+    visibility: visible;
+}
+
+.clearbtn {
+    visibility: hidden;
+}
+
+.crealbtn:hover {
+    background-color: rgb(182, 87, 87);
+    color: whitesmoke;
+}
+
+.crealbtn:active {
+    font-size: x-small;
+}
